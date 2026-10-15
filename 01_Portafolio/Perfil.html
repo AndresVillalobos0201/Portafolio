@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pantalla-construccion">
+        <img src="Recursos/IMG/En_construccion.jpg" alt="Sitio en construcción" class="imagen-fluida">
+    </div>
+
+<!-- En tu archivo CSS -->
+<style>
+  .pantalla-construccion {
+    display: flex;
+    justify-content: center; /* Centra la imagen de izquierda a derecha */
+    align-items: center;     /* Centra la imagen de arriba a abajo */
+    min-height: 100vh;       /* El contenedor ocupa el 100% del alto de tu pantalla */
+    background-color: #0f172a; /* Puedes ponerle un color de fondo oscuro si quieres */
+  }
+
+  .imagen-fluida {
+    max-width: 90%;          /* Le da un pequeño margen en pantallas pequeñas */
+    height: auto;            /* Mantiene la proporción de la imagen */
+  }
+</style>
+</body>
+</html>
